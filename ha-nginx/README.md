@@ -1,5 +1,7 @@
 # Setup Highly Available Nginx with KeepAlived
 
+![High availablity](./ha-diagram-animated.gif)
+
 * Lab Details
 
 |IP | 主机| 组件| 软件| 备注|
