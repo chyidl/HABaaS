@@ -89,7 +89,7 @@ $ sudo systemctl enable keepalived
 1月 21 15:36:29 centos Keepalived_vrrp[3900]: Sending gratuitous ARP on eth0 for 172.16.30.205
 1月 21 15:36:29 centos Keepalived_vrrp[3900]: Sending gratuitous ARP on eth0 for 172.16.30.205
 
-[blocface@centos ~]$ ip add show
+[blocface@centos ~]$ ip addr show
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
