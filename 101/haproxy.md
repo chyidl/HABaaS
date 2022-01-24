@@ -43,3 +43,20 @@
 
 * source
 > This select which server to use based on a hash of the source IP. This is one method to ensure that a user will connect to the same server.
+
+
+## Sticky Sessions
+> Some application require that a user continues to connect to the same backend server.
+
+
+## Health Check
+> HAProxy uses health checks to determine if a backend server is available to process requests.
+> The default health check is to try to establish a TCP connection to the server i.e. It checks if the backend server is listening on the configured IP address and port.
+
+## Other Solutions
+* Linux Virtual Servers(LVS) - A simple, fast layer 4 load balancer included in many Linux distributions.
+* Nginx - A fast and reliable web server that can also be used for proxy and load-balancing purposes. Nginx is often used in conjunction with HAProxy for its caching and compression capabilities.
+
+
+## High Avilability
+![basic high availability](./images/ha-diagram-animated.gif)
