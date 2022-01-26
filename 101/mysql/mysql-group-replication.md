@@ -79,3 +79,12 @@ $ mysql -u root -p
   # reset all the privileges(all changes to take effect)
   > FLUSH PRIVILEGES;
 ```
+
+## Generate a UUID to Identify the MySQL Group
+```
+[blocface@CentOS-7 mysql]$ uuidgen
+fad52833-e46b-4721-b902-f597977bd3da
+```
+
+## Set Up Group Replication in the MySQL Configuration File
+
